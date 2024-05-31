@@ -1,0 +1,70 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
+body{font-family: "Noto Serif TC", serif;}
+
+header h1  {
+	color: #C95101;
+	text-align: center;
+	font-weight: 200;
+
+}
+nav {
+	text-align: center;
+	text-decoration: none;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+
+}
+nav a:link   {
+	color: #B220B6;
+	text-align: center;
+	text-decoration: none;
+}
+nav a:hover  {
+	color: #FA0000;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 16pt;
+}
+header .圖片 {
+	height: 300px;
+	width: 600px;
+	color: #B91D1F;
+	border-radius: 10pt;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	background-image: url(20230411112104-a7838388.jpg);
+}
+article h3 {
+	background-image: -webkit-linear-gradient(270deg,rgba(155,221,245,1.00) 0%,rgba(255,255,255,1.00) 0%,rgba(191,193,231,1.00) 0%,rgba(254,254,254,1.00) 0%,rgba(136,172,226,1.00) 100%,rgba(180,182,227,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(155,221,245,1.00) 0%,rgba(255,255,255,1.00) 0%,rgba(191,193,231,1.00) 0%,rgba(254,254,254,1.00) 0%,rgba(136,172,226,1.00) 100%,rgba(180,182,227,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(155,221,245,1.00) 0%,rgba(255,255,255,1.00) 0%,rgba(191,193,231,1.00) 0%,rgba(254,254,254,1.00) 0%,rgba(136,172,226,1.00) 100%,rgba(180,182,227,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(155,221,245,1.00) 0%,rgba(255,255,255,1.00) 0%,rgba(191,193,231,1.00) 0%,rgba(254,254,254,1.00) 0%,rgba(136,172,226,1.00) 100%,rgba(180,182,227,1.00) 100%);
+	line-height: 35px;
+	height: 35px;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+.container header .照片 {
+	width: 600px;
+	height: 300px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	background-image: url(file:///C|/Users/%E8%B2%9D%E6%8B%89/Desktop/%E7%B6%B2%E9%A0%81/%E7%85%A7%E7%89%87/20230411112104-a7838388.jpg);
+	border-radius: 10px;
+	background-position: center center;
+	background-size: cover;
+}
+.container main .圖片 {
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+
+}
